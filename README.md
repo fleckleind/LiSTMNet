@@ -32,6 +32,18 @@ pip install thop medpy ...
 
 * Some packages may not be mentioned, please install them according to the error message. XD
 
+## CHECKPOINTS
+* If you want to use TransUNet in this repository, please follow [TransUNet](https://github.com/Beckschen/TransUNet) to get the ViT checkpoints.
+```
+Checkpoint Path: ../configs/transunet/vit_checkpoint/imagenet21k/R50+ViT-B_16.npz
+```
+
+* If you want to use SegFormer or Vivim in this repository, please download pretrianed SegFormer model from [huggingface](https://huggingface.co/nvidia/segformer-b3-finetuned-ade-512-512/tree/main).
+```
+Checkpoint Path: ../segformer_b3
+```
+
+
 ## ACKNOWLEDGEMENT
 The work is based on 
 [MemSAM](https://github.com/dengxl0520/MemSAM),
