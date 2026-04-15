@@ -44,7 +44,7 @@ pip install thop medpy ...
 Checkpoint Path: ../configs/transunet/vit_checkpoint/imagenet21k/R50+ViT-B_16.npz
 ```
 
-* If you want to use SegFormer or Vivim in this repository, please download pretrianed SegFormer model from [huggingface](https://huggingface.co/nvidia/segformer-b3-finetuned-ade-512-512/tree/main).
+* If you want to use SegFormer or Vivim in this repository, please download pre-trianed NVIDIA SegFormer-b3 model from [huggingface](https://huggingface.co/nvidia/segformer-b3-finetuned-ade-512-512/tree/main).
 ```
 Checkpoint Path: ../segformer_b3
 ```
