@@ -1,7 +1,7 @@
 # LiSTMNet
 Lightweight Spatial-Temporal Mamba Network for Medical Video Segmentation, historical version.
 
-## DATA PREPARATION
+## DATA
 * Please download datasets from
 [CAMUS](https://www.creatis.insa-lyon.fr/Challenge/camus/), 
 [EchoNet-Dynamic](https://echonet.github.io/dynamic/), 
@@ -10,8 +10,13 @@ Lightweight Spatial-Temporal Mamba Network for Medical Video Segmentation, histo
 * Please follow [MemSAM](https://github.com/dengxl0520/MemSAM) for cardiac ultrasound video segmentation data (CAMUS, EchoNet-Dynamic).
 * Please follow the data format and storage requirements from [SALI](https://github.com/Scatteredrain/SALI) for video polyp segmentation (VPS).
 
-## ENVIRONMENT
 
+## ENVIRONMENT
+* NVIDIA RTX 3090 + Ubuntu 22.04 + CUDA 12.4
+* Python 3.12 + PyTorch 2.5 + TorchVision 0.20.0
+
+
+## INSTALLATION
 * Please follow [Vivim](https://github.com/scott-yjyang/Vivim) to install casual-conv1d and mamba.
 ```bash
 git clone https://github.com/scott-yjyang/Vivim.git
@@ -31,6 +36,7 @@ pip install thop medpy ...
 ```
 
 * Some packages may not be mentioned, please install them according to the error message. XD
+
 
 ## CHECKPOINTS
 * If you want to use TransUNet in this repository, please follow [TransUNet](https://github.com/Beckschen/TransUNet) to get the ViT checkpoints.
