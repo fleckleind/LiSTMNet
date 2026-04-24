@@ -6,7 +6,6 @@ Lightweight Spatial-Temporal Mamba Network for Medical Video Segmentation, histo
 [CAMUS](https://www.creatis.insa-lyon.fr/Challenge/camus/), 
 [EchoNet-Dynamic](https://echonet.github.io/dynamic/), 
 [VPS](https://drive.google.com/file/d/1TyaRy4c4nHFDa3o2bOl4dP5Z7wes7HV2/view).
-
 * Please follow [MemSAM](https://github.com/dengxl0520/MemSAM) for cardiac ultrasound video segmentation data (CAMUS, EchoNet-Dynamic).
 * Please follow the data format and storage requirements from [SALI](https://github.com/Scatteredrain/SALI) for video polyp segmentation (VPS).
 
